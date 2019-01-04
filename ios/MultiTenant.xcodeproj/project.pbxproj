@@ -39,6 +39,23 @@
 		73673D0B21DF8C2D006294A2 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8708F228B3624B23B51717D7 /* libReactNativeConfig.a */; };
 		73673D0D21DF8C2D006294A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		73673D0E21DF8C2D006294A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		73673D1721DFA741006294A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		73673D1821DFA741006294A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		73673D1A21DFA741006294A2 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		73673D1B21DFA741006294A2 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		73673D1C21DFA741006294A2 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		73673D1D21DFA741006294A2 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		73673D1E21DFA741006294A2 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		73673D1F21DFA741006294A2 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		73673D2021DFA741006294A2 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		73673D2121DFA741006294A2 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		73673D2221DFA741006294A2 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		73673D2321DFA741006294A2 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		73673D2421DFA741006294A2 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		73673D2521DFA741006294A2 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		73673D2621DFA741006294A2 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8708F228B3624B23B51717D7 /* libReactNativeConfig.a */; };
+		73673D2821DFA741006294A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		73673D2921DFA741006294A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -341,6 +358,8 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		73673D1321DF8C2D006294A2 /* Apperizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apperizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73673D1421DF8C2D006294A2 /* MultiTenant copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultiTenant copy-Info.plist"; path = "/Users/alexandrulazar/mcro/MultiTenant/ios/MultiTenant copy-Info.plist"; sourceTree = "<absolute>"; };
+		73673D2E21DFA741006294A2 /* Cucubau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cucubau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73673D2F21DFA741006294A2 /* Apperizer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Apperizer copy-Info.plist"; path = "/Users/alexandrulazar/mcro/MultiTenant/ios/Apperizer copy-Info.plist"; sourceTree = "<absolute>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8708F228B3624B23B51717D7 /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
@@ -386,6 +405,26 @@
 				73673D0921DF8C2D006294A2 /* libRCTVibration.a in Frameworks */,
 				73673D0A21DF8C2D006294A2 /* libRCTWebSocket.a in Frameworks */,
 				73673D0B21DF8C2D006294A2 /* libReactNativeConfig.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73673D1921DFA741006294A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73673D1A21DFA741006294A2 /* libRCTBlob.a in Frameworks */,
+				73673D1B21DFA741006294A2 /* libRCTAnimation.a in Frameworks */,
+				73673D1C21DFA741006294A2 /* libReact.a in Frameworks */,
+				73673D1D21DFA741006294A2 /* libRCTActionSheet.a in Frameworks */,
+				73673D1E21DFA741006294A2 /* libRCTGeolocation.a in Frameworks */,
+				73673D1F21DFA741006294A2 /* libRCTImage.a in Frameworks */,
+				73673D2021DFA741006294A2 /* libRCTLinking.a in Frameworks */,
+				73673D2121DFA741006294A2 /* libRCTNetwork.a in Frameworks */,
+				73673D2221DFA741006294A2 /* libRCTSettings.a in Frameworks */,
+				73673D2321DFA741006294A2 /* libRCTText.a in Frameworks */,
+				73673D2421DFA741006294A2 /* libRCTVibration.a in Frameworks */,
+				73673D2521DFA741006294A2 /* libRCTWebSocket.a in Frameworks */,
+				73673D2621DFA741006294A2 /* libReactNativeConfig.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +612,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				73EA7AC721DE4A6B001B45F4 /* Recovered References */,
 				73673D1421DF8C2D006294A2 /* MultiTenant copy-Info.plist */,
+				73673D2F21DFA741006294A2 /* Apperizer copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -584,6 +624,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* MultiTenant.app */,
 				73673D1321DF8C2D006294A2 /* Apperizer.app */,
+				73673D2E21DFA741006294A2 /* Cucubau.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -636,6 +677,24 @@
 			productReference = 73673D1321DF8C2D006294A2 /* Apperizer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		73673D1521DFA741006294A2 /* Cucubau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73673D2B21DFA741006294A2 /* Build configuration list for PBXNativeTarget "Cucubau" */;
+			buildPhases = (
+				73673D1621DFA741006294A2 /* Sources */,
+				73673D1921DFA741006294A2 /* Frameworks */,
+				73673D2721DFA741006294A2 /* Resources */,
+				73673D2A21DFA741006294A2 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cucubau;
+			productName = "Hello World";
+			productReference = 73673D2E21DFA741006294A2 /* Cucubau.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -650,6 +709,9 @@
 						DevelopmentTeam = M7P67CXT5T;
 					};
 					73673CFA21DF8C2D006294A2 = {
+						DevelopmentTeam = M7P67CXT5T;
+					};
+					73673D1521DFA741006294A2 = {
 						DevelopmentTeam = M7P67CXT5T;
 					};
 				};
@@ -723,6 +785,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* MultiTenant */,
 				73673CFA21DF8C2D006294A2 /* Apperizer */,
+				73673D1521DFA741006294A2 /* Cucubau */,
 			);
 		};
 /* End PBXProject section */
@@ -1022,6 +1085,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73673D2721DFA741006294A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73673D2821DFA741006294A2 /* Images.xcassets in Resources */,
+				73673D2921DFA741006294A2 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1053,6 +1125,20 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		73673D2A21DFA741006294A2 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1071,6 +1157,15 @@
 			files = (
 				73673CFC21DF8C2D006294A2 /* AppDelegate.m in Sources */,
 				73673CFD21DF8C2D006294A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73673D1621DFA741006294A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73673D1721DFA741006294A2 /* AppDelegate.m in Sources */,
+				73673D1821DFA741006294A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1180,6 +1275,59 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 				);
 				INFOPLIST_FILE = "MultiTenant copy-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		73673D2C21DFA741006294A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = M7P67CXT5T;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+				);
+				INFOPLIST_FILE = "Apperizer copy-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		73673D2D21DFA741006294A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7P67CXT5T;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+				);
+				INFOPLIST_FILE = "Apperizer copy-Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
 				INFOPLIST_PREPROCESS = YES;
@@ -1311,6 +1459,15 @@
 			buildConfigurations = (
 				73673D1121DF8C2D006294A2 /* Debug */,
 				73673D1221DF8C2D006294A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73673D2B21DFA741006294A2 /* Build configuration list for PBXNativeTarget "Cucubau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73673D2C21DFA741006294A2 /* Debug */,
+				73673D2D21DFA741006294A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
