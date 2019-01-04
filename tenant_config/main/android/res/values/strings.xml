@@ -1,0 +1,6 @@
+<resources>
+
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">Hz5Ms0HopXNDSOtrDOorbgARVliP4kpSdyNy7</string>
+    <string name="app_name">Demco</string>
+    <string name="facebook_app_id">693515230831987</string>
+</resources>

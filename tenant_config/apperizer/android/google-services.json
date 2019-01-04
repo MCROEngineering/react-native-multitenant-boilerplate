@@ -1,0 +1,507 @@
+{
+  "project_info": {
+    "project_number": "499688712234",
+    "firebase_url": "https://demcosoft-mobile.firebaseio.com",
+    "project_id": "demcosoft-mobile",
+    "storage_bucket": "demcosoft-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:cecec88f812e0c44",
+        "android_client_info": {
+          "package_name": "com.demco.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:2527e574b2578ad5",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.airforcelib.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:302db6ed680e6f95",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.airforcelib.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:50b81e866e510759",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.appleton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:7987bc7a4ffacc43",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.appleton.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:dc394349453b5d8b",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.appleton.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:774a452d7c320626",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.cancollegeops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:a520c4e71a8097df",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.ilbyronpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:b5f247f13dd59f8f",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:71079a843e92daf6",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.mobile.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:2b88329bd217d3dc",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.mobile.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:b718e55fadcdc4ea",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.nylevylib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:a54dc5b87f394393",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.nylevylib.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:c2f6712649a08f7a",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.nylevylib.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:c6206bfd483b00bc",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.onchathamkpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499688712234:android:420254d1a177e657",
+        "android_client_info": {
+          "package_name": "com.demcosoftware.ruthculverplwi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499688712234-fp7dddecqqho43l814977j684hv443hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNeOSVI58ItKw5DKXTWsOD0CVwqumcF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

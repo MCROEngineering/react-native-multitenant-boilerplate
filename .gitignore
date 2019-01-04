@@ -1,0 +1,109 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# configurable iOS assets ignored
+ios/Demco/Images.xcassets/AppIcon.appiconset/*
+ios/Demco/Images.xcassets/LaunchImage.launchimage/*
+prebuild.log
+# end configurable assets
+
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# configurable Android assets ignored
+
+/android/app/src/main/res/drawable
+/android/app/src/main/res/drawable-hdpi
+/android/app/src/main/res/drawable-ldpi
+/android/app/src/main/res/drawable-mdpi
+/android/app/src/main/res/drawable-xhdpi
+/android/app/src/main/res/drawable-xxhdpi
+/android/app/src/main/res/drawable-xxxhdpi
+
+/android/app/src/main/res/drawable-land
+/android/app/src/main/res/drawable-land-hdpi
+/android/app/src/main/res/drawable-land-ldpi
+/android/app/src/main/res/drawable-land-mdpi
+/android/app/src/main/res/drawable-land-xhdpi
+/android/app/src/main/res/drawable-land-xxhdpi
+/android/app/src/main/res/drawable-land-xxxhdpi
+
+/android/app/src/main/res/mipmap-hdpi
+/android/app/src/main/res/mipmap-ldpi
+/android/app/src/main/res/mipmap-mdpi
+/android/app/src/main/res/mipmap-xhdpi
+/android/app/src/main/res/mipmap-xxhdpi
+/android/app/src/main/res/mipmap-xxxhdpi
+/android/app/src/main/res/layout
+/android/app/src/main/res/values
+/android/app/src/main/res/values-sw600dp
+/android/app/src/main/res/playstore-icon.png
+
+# end configurable assets ignored
+
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+*.mobileprovision
+*.app.dSYM.zip
+*.ipa
+*.cer
+
+# React Native bundles
+
+ios/PepperoniAppTemplate/main.jsbundle
+ios/PepperoniAppTemplate/main.jsbundle.meta
+
+ios/Podfile.lock
+fastlane/README.md
+
+Gemfile.lock
+
+# Bundle artifact
+*.jsbundle
