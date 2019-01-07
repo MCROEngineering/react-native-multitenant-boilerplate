@@ -5,12 +5,12 @@ DIR=$DIR/..
 if [ "$1" != "" ]; then
 	tenant=$1
 else
-    # grab the default one if none is specified
+    # default tenant if none is specified
 	tenant="main"
 fi
 
 if [ ! -d "$DIR/tenant_config/$tenant/" ]; then
-  # Control will enter here if $DIRECTORY exists.
+  # Check if $DIRECTORY exists and throw exeption if it doesn't .
   echo "#### Specified Tenant does not exists ####"
   exit
 fi

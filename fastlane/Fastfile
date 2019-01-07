@@ -1,0 +1,141 @@
+fastlane_require 'json'
+fastlane_version "2.9.1"
+fastlane_require 'spaceship'
+
+default_platform :ios
+
+def getAppConfig(tenant, configuration)
+  if configuration == "Staging"
+    config = "staging"
+  elsif configuration == "Dev"
+    config = "dev"
+  else
+    config = "prod"
+  end
+
+  appData = {}
+  open("../tenant_config/#{tenant}/.env.#{config}", 'r').readlines.each {|l| kv = l.split('='); appData[kv[0]] = "#{kv[1]}".strip;}
+  return appData
+end
+
+before_all do
+    ENV["HOCKEY_API_TOKEN"] = "0642b192dcd64e459a7fb8d09d72d9df"
+  end
+
+desc "Hockey config"
+  lane :hockeyConfig do |options|
+    hockey(
+      api_token: ENV["HOCKEY_API_TOKEN"],
+      public_identifier: options[:identifier],
+      notify: "1",
+      status: "2"
+    )
+  end
+
+platform :ios do
+
+  desc "Build app"
+    lane :build do |options|
+
+      build_app(
+        scheme: options[:scheme],
+        configuration: options[:configuration],
+        workspace: './ios/MultiTenant.xcworkspace',
+        clean: true
+      )
+    end
+
+  desc "Hockey deploy"
+    lane :hockey_deploy do |options|
+      appConfig = getAppConfig(options[:tenant], options[:configuration])
+
+      increment_build_number(xcodeproj: './ios/MultiTenant.xcodeproj')
+      build(scheme: appConfig["SCHEME"], configuration: options[:configuration])
+      hockeyConfig(identifier: appConfig["HOCKEY_IDENTIFIER_IOS"])
+    end
+
+  desc "TestFlight deploy"
+    lane :testflight_deploy do |options|
+      appConfig = getAppConfig(options[:tenant], options[:configuration])
+      appIdentifier = appConfig["IOS_ID"]
+      scheme = appConfig["SCHEME"]
+
+      increment_build_number(xcodeproj: './ios/MultiTenant.xcodeproj')
+      build(scheme: scheme, configuration: options[:configuration])
+      upload_to_testflight(
+        app_identifier: appIdentifier,
+        skip_waiting_for_build_processing: true,
+        groups: [appConfig["testflight_group"]],
+        distribute_external: true
+      )
+    end
+
+end
+
+platform :android do
+
+  desc "Build app"
+    lane :build do |options|
+      tenant = options[:tenant]
+      configuration = "#{options[:configuration]}"
+
+      if configuration == "Staging"
+        config = "staging"
+      elsif configuration == "Debug"
+        config = "prod"
+      else
+        config = "dev"
+      end
+
+      ENV["ENVFILE"]="./tenant_config/#{tenant}/.env.#{config}"
+      gradle(
+        task: "assemble",
+        build_type: "Release",
+        project_dir: "android/"
+      )
+    end
+
+    lane :hockey_deploy do |options|
+      tenant = options[:tenant]
+      configuration = options[:configuration]
+      appConfig = getAppConfig(options[:tenant], options[:configuration])
+
+      build(tenant: tenant, configuration: configuration)
+
+      hockeyConfig(identifier: appConfig["HOCKEY_IDENTIFIER_ANDROID"])
+    end
+
+    lane :playstore_beta_deploy do |options|
+      tenant = options[:tenant]
+
+      increment_build_number
+      build(tenant: tenant)
+
+      upload_to_play_store(track: 'beta')
+    end
+
+end
+
+after_each do |lane, options|
+  laneString = "#{lane}"
+
+  if laneString === "hockey_deploy"
+    platform = lane_context[SharedValues::PLATFORM_NAME]
+    appName = lane_context[SharedValues::HOCKEY_BUILD_INFORMATION]["title"]
+
+    slack(
+      message: "Successfully deployed a new #{platform} version of #{appName} mobile app to Hockey"
+    )
+  end
+end
+
+error do |lane, exception|
+  #slack(
+  #  message: exception.message,
+  #  success: false
+  #)
+end
+
+
+
+
