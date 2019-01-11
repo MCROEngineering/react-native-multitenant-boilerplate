@@ -116,7 +116,7 @@ android {
         release {
             keyAlias keystoreProperties['keyAlias']
             keyPassword keystoreProperties['keyPassword']
-            storeFile file("../keystores/production.keystore")
+            storeFile file("../keystores/release.jks")
             storePassword keystoreProperties['storePassword']
         }
     }
@@ -142,6 +142,7 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
