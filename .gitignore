@@ -23,8 +23,8 @@ DerivedData
 project.xcworkspace
 
 # configurable iOS assets ignored
-ios/Demco/Images.xcassets/AppIcon.appiconset/*
-ios/Demco/Images.xcassets/LaunchImage.launchimage/*
+ios/MultiTenant/Images.xcassets/AppIcon.appiconset/*
+ios/MultiTenant/Images.xcassets/LaunchImage.launchimage/*
 prebuild.log
 # end configurable assets
 

@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "499688712234",
-    "firebase_url": "https://demcosoft-mobile.firebaseio.com",
-    "project_id": "demcosoft-mobile",
-    "storage_bucket": "demcosoft-mobile.appspot.com"
+    "firebase_url": "https://mcallio.firebaseio.com",
+    "project_id": "mcallio",
+    "storage_bucket": "v.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:499688712234:android:cecec88f812e0c44",
         "android_client_info": {
-          "package_name": "com.demco.mobileapp"
+          "package_name": "com.mcallio.mobileapp"
         }
       },
       "oauth_client": [

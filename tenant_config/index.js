@@ -8,4 +8,4 @@ const tenantConfigs = {
   cucubau: require('./cucubau/config')
 };
 
-export default tenantConfigs[Config.APP_PIN].default;
+export default { ...tenantConfigs[Config.APP_PIN].default, ...Config };
