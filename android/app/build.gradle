@@ -129,6 +129,7 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        resValue "string", "build_config_package", "com.multitenant"
     }
     splits {
         abi {
@@ -161,7 +162,7 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-config')
+    implementation project(':react-native-config')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules

@@ -1,11 +1,15 @@
 /* eslint-disable */
 
 import Config from 'react-native-config';
+import main from './main/config';
+import apperizer from './apperizer/config';
+import cucubau from './cucubau/config';
 
 const tenantConfigs = {
-  main: require('./main/config'),
-  apperizer: require('./apperizer/config'),
-  cucubau: require('./cucubau/config')
+  main,
+  apperizer,
+  cucubau
 };
 
-export default { ...tenantConfigs[Config.APP_PIN].default, ...Config };
+export default { ...tenantConfigs[Config.APP_PIN], ...Config };
+
