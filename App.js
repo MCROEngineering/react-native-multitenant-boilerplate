@@ -15,7 +15,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Hi there! Welcome to {Config.APP_NAME}</Text>
+        <Text style={styles.welcome}>Hi there! Welcome to {Config.APP_PIN}</Text>
         <Image source={Config.appLogo} width={200} height={200} />
       </View>
     );
