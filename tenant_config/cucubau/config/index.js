@@ -1,9 +1,12 @@
-const logo = require('./logo.png');
+
+const appLogo = require('./logo.png');
 
 export default {
-  // app logo
-  logo,
+  
   home: {
-    background: '#FF0000'
-  }
+    backgroundColor: '#9a57cb',
+  },
+  
+  // app logo
+  appLogo,
 };
